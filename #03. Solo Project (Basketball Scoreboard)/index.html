@@ -1,0 +1,59 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Keania+One&family=Qahiri&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div class="container">
+            <header><div id="time">00:00</div></header>
+                
+            <section>
+                <article id="home">
+                    <div id="home-scorebox">
+                        <h2>HOME</h2>
+                        <div id="home-background" class="score-background"><span id="home-score">0</span></div>
+                        <ul>
+                            <li><button id="home-plus1">+ 1</button></li>
+                            <li><button id="home-plus2">+ 2</button></li>
+                            <li><button id="home-plus3">+ 3</button></li>
+                        </ul>
+                    </div>
+                    <div id="home-foul">
+                        <h3>FOULS</h3>
+                        <button id="homefoul-btn">0</button>
+                    </div>
+                </article>
+                
+                <div id="period">
+                    <h4>PERIOD</h4>
+                    <button id="period-btn">1</button>
+                </div>
+                
+                <article id="guest">
+                    <div id="guest-scorebox">
+                        <h2>GUEST</h2>
+                        <div id="guest-background" class="score-background"><span id="guest-score">0</span></div>
+                        <ul>
+                            <li><button id="guest-plus1">+ 1</button></li>
+                            <li><button id="guest-plus2">+ 2</button></li>
+                            <li><button id="guest-plus3">+ 3</button></li>
+                        </ul>
+                    </div>
+                    <div id="guest-foul">
+                        <h3>FOULS</h3>
+                        <button id="guestfoul-btn">0</button>
+                    </div>
+                </article>
+            </section>
+            
+            <footer>
+                <button id="start-btn">Start Game</button>
+                <button id="new-btn">New Game</button>
+            </footer>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

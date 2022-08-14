@@ -1,0 +1,192 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 525px;
+    height: 385px;
+    background: #1B244A;
+}
+
+/* time */
+header{
+    height: 73px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#time{
+    height: 73px;
+    width: 226.3px;
+    background: #080001;
+    border-radius: 5px;
+    font-family: 'Keania One', cursive;
+    color: #EEEEEE;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* section(All-purpose) */
+section{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* period */
+#period{
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80px;
+}
+h4{
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 6px;
+}
+#period-btn{
+    width: 40px;
+    height: 40px;
+    background: #080001;
+    border-radius: 5px;
+    color: #F94F6D;
+    font-size: 25px;
+}
+
+/* article (home & guest) */
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #EEEEEE;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.score-background{
+    margin: 0;
+    height: 117.53px;
+    width: 143.45px;
+    background: #080001;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    font-family: 'Keania One', cursive;
+    color: #F94F6D;
+    font-size: 90px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    width: 143.45px;
+    height: 41.65px;
+    margin-top: 10px;
+}
+li{
+    list-style: none;
+}
+button{
+    cursor: pointer;
+    font-family: 'Keania One', cursive;
+}
+li > button{
+    list-style: none;
+    width: 41.65px;
+    height: 41.65px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    background: none;
+    color: #9AABD8;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Keania One', cursive;
+}
+
+/* section layout */
+#home{
+    display: flex;
+    flex-direction: row;
+}
+#guest{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* fouls */
+#home-foul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 6px;
+    padding-top: 15px;
+}
+#homefoul-btn{
+    width: 58.3px;
+    height: 47.2px;
+    background: #080001;
+    border-radius: 5px;
+    color: #F94F6D;
+    font-size: 35px;
+}
+#guest-foul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 6px;
+    padding-top: 15px;
+}
+#guestfoul-btn{
+    width: 58.3px;
+    height: 47.2px;
+    background: #080001;
+    border-radius: 5px;
+    color: #F94F6D;
+    font-size: 35px;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #EEEEEE;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* start & new */
+#start-btn, #new-btn{
+    width: 137px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 2px;
+    border: none;
+}
+#start-btn{
+    background: lightgreen;
+    color: lightyellow;
+}
+#new-btn{
+    background: lightyellow;
+    color: lightgreen;
+}
